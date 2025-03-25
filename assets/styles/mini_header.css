@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', sans-serif;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.mini {
+    list-style: none;
+    display: flex;
+    gap: 40px; 
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.mini .m {
+    margin: 0 30px;
+}
+
+.mini a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.mini a:hover {
+    color: #ffb800;
+    text-decoration: underline;
+    text-decoration-color: #ffb800;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+.mini a.active {
+    color: #ffb800;
+    text-decoration: underline;
+    text-decoration-color: #ffb800;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}

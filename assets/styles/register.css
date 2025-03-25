@@ -1,0 +1,126 @@
+html, body {
+    height: 92.9%;
+    margin: 0;
+}
+.full-height {
+    height: 100%;
+}
+.image-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    
+}
+
+.form-container {
+    background: #ffb800;
+    padding: 14px 30px 14px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 80%;
+    
+}
+.form-container h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.form-container .form-group {
+    margin-bottom: 7px;
+    height: 100%;
+}
+.form-container .form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+.form-container .btn {
+    border-radius: 5px;
+    padding: 7px 1px;
+}
+.btn-orange {
+    background-color: rgb(16, 16, 15) !important;
+    color: whitesmoke !important;
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+
+
+#toastBox {
+    position: fixed;
+    top: 60px;
+    right: 30px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.custom-toast {
+    position: relative;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    margin: 15px 0;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    color: whitesmoke;
+}
+
+.custom-toast i {
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.custom-toast.error i {
+    color: red;
+}
+
+
+.custom-toast.success i {
+    color: green;
+}
+
+.custom-toast::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: green;
+    animation: anim 5s linear forwards;
+}
+
+@keyframes anim {
+    100% {
+        width: 0;
+    }
+}
+
+.custom-toast.error::after {
+    background-color: red;
+}
+
+.custom-toast.success::after {
+    background-color: green;
+}

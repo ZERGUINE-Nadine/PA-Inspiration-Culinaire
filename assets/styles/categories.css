@@ -1,0 +1,107 @@
+/* Réinitialisation des marges, des espacements et de la taille des boîtes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général du corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style du conteneur principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style du bouton "Surprenez-moi !" */
+.surprise-button {
+    background-color: #ffb800;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px 30px;
+    margin: 20px auto; /* Centre le bouton et laisse de l'espace au-dessus et en dessous */
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block; /* Assure que le bouton se centre correctement */
+}
+
+.surprise-button:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+/* Style des catégories */
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Style de la grille des catégories */
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style des éléments de la catégorie */
+.nom_categorie, .flex-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Style des images des catégories */
+.nom_categorie img, .flex-item img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+/* Style des titres de catégorie */
+.nom_categorie {
+    background-color: #ffb800;
+    height: 150px;
+    width: calc(20% - 20px);
+}
+
+.nom_categorie:hover, .flex-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.flex-item {
+    border: 1px solid #ccc;
+    height: 150px;
+    width: calc(20% - 20px);
+}
+
+/* Adaptation responsive */
+@media (max-width: 768px) {
+    .nom_categorie, .flex-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .nom_categorie, .flex-item {
+        width: calc(100% - 20px);
+    }
+}
