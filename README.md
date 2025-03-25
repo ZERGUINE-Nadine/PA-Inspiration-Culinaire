@@ -1,4 +1,6 @@
 README - Inspiration Culinaire
+
+
 📌 Description du projet
 Inspiration Culinaire est un site web dédié à l'art de la cuisine, offrant une collection variée de recettes pour tous les niveaux. Le projet vise à aider les utilisateurs à découvrir de nouvelles idées culinaires, améliorer leurs compétences et partager leur passion pour la gastronomie.
 
