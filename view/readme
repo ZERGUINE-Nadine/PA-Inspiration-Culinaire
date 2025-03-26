@@ -1,0 +1,163 @@
+Inspiration Culinaire est un site web dédié à l'art de la cuisine, proposant une vaste collection de recettes pour tous les goûts et niveaux de compétence. Notre objectif est d'aider les passionnés de cuisine à découvrir de nouvelles idées, à améliorer leurs compétences culinaires et à partager leur amour de la gastronomie.
+Clients du site
+Les clients d’Inspiration Culinaire sont les utilisateurs qui accèdent à notre plateforme pour trouver des recettes et des conseils culinaires. Ils peuvent être répartis en plusieurs catégories :
+.	Cuisiniers amateurs : Ceux qui aiment cuisiner pour le plaisir et cherchent à explorer de nouvelles recettes et techniques.
+.	Chefs professionnels : Ceux qui travaillent dans le domaine de la restauration et recherchent des inspirations pour leurs menus.
+.	Étudiants en cuisine : Ceux qui sont en formation culinaire et ont besoin de ressources pour leurs études et leurs pratiques.
+.	Familles et ménages : Ceux qui cherchent des idées pour préparer des repas quotidiens ou des occasions spéciales.
+
+Utilisateurs
+Les utilisateurs de Inspiration Culinaire sont les visiteurs du site qui utilisent les différentes fonctionnalités offertes, notamment :
+.	Recherche de recettes : Utilisation du moteur de recherche pour trouver des recettes spécifiques.
+.	Consultation des recettes : Lecture des instructions et des listes d'ingrédients pour préparer des plats.
+.	Participation communautaire : Interaction avec d'autres utilisateurs via les commentaires et les forums pour échanger des conseils et des expériences culinaires.
+.	Téléchargement et impression : Utilisation des options de téléchargement et d'impression pour avoir les recettes à portée de main en cuisine.
+.	Personnes en manque d'inspiration : Ceux qui ne savent pas quoi préparer pour le dîner et cherchent des idées rapides et faciles.
+Collaborateurs
+Les collaborateurs d’Inspiration Culinaire sont les personnes et entités qui contribuent au contenu et au développement du site. Ils incluent :
+.	Chefs et cuisiniers : Ceux qui partagent leurs recettes et techniques de cuisine.
+.	Nutritionnistes : Ceux qui fournissent des conseils sur la nutrition et l'équilibre alimentaire.
+.	Blogueurs culinaires : Ceux qui créent du contenu en lien avec les tendances culinaires, les critiques de produits, et plus encore.
+.	Photographes et vidéastes : Ceux qui capturent des images et vidéos de haute qualité pour illustrer les recettes et tutoriels.
+.	Les atelier : qui organise des atelier cuisinière 
+Pourquoi Inspiration Culinaire ?
+Le choix du nom Inspiration Culinaire reflète notre mission et notre vision :
+.	Inspiration : Nous visons à inspirer nos utilisateurs avec des idées innovantes et créatives pour leurs préparations culinaires.
+.	Culinaire : Notre domaine d'intérêt est centré sur la cuisine et la gastronomie, couvrant une vaste gamme de recettes, techniques et conseils.
+Inspiration Culinaire se positionne comme une ressource précieuse pour tous ceux qui cherchent à enrichir leur répertoire de recettes, à améliorer leurs compétences en cuisine et à partager leur passion pour la gastronomie. En fournissant des contenus de qualité et une plateforme interactive, nous espérons devenir un site incontournable pour tous les amateurs de cuisine.
+
+
+
+
+Front ? 
+-	Pages 
+-	Page de connexion 
+•	Accueil 
+-	Page d’enregistrement page d’accueille 
+•	Recette
+-	Page des catégories 
+-	Pages recettes 
+-	Pages détails recette 
+•	Blog 
+-	Chat 
+-	Articles 
+-	Evènements et challenges 
+-	Chefs 
+•	Contact 
+-	Page formulaires de contact 
+•	Profil
+-	Profil
+-	Les suivis 
+-	Les favoris 
+
+
+
+
+
+Utilisation :
+Connexion ?
+-	Captcha
+Pour vérifier que cet utilisateur est un humain et pas un robot 
+####('../view/Captcha.png')
+
+-	LA PAGE D’ENREGISTREMENT 
+Pour que l’utilisateur sera inscrit 
+####('../view/register.png.png')
+
+-	Validation mail 
+L’utilisateur reçois un mail qui contient un message et un code de validation a entrer dans cette espace 
+####('../view/validation_mail.png')
+
+-	La page de connexion 
+Pour que l’utilisateur sera connecté 
+####('../view/login.png')
+
+
+Consultation ?
+-	Page d’accueille 
+La page représentative du site 
+Elle contient un header pour naviguer au sien du site 
+Une barre de recherche pour faciliter la recherche des recettes 
+Une recette du mois 
+Les catégories représentatives des recettes proposer dans le site 
+####('../view/Home.png')
+
+
+-	Pages catégories  
+Contient les différentes catégories des plats proposer 
+####('../view/recettes.png')
+
+
+-	Pages recettes
+Présente les différentes recettes dans chaque catégorie  
+####('../view/categorie.png')
+
+
+
+-	Page détails de la recette 
+Cette page affiche les détails de chaque recette avec plusieurs fonctionnalités pour interagir avec cette recette 
+####('../view/details-recette.png')
+
+
+Interaction ?
+-	Blog 
+•	Chit chat 
+Un chat commun entre tous les membre de blog
+####('../view/Blog:chat.png')
+
+
+•	Article 
+Une page qui contient une listes des articles partagé sur le site 
+####('../view/Blog:article.png')
+-	Page détails article 
+Une page qui contient les détails  de chaque article avec des fonctionnalités qui permet d’interagir avec l’article 
+####('../view/Blog:details-article.png')
+
+•	Evènements et challenges 
+Une page qui contient une liste des événements et challenges dans lesquels les utilisateurs peuvent participe 
+####('../view/Blog:challenges.png')
+-	Détails challenges 
+Une page qui contient les détails de chaque challenge avec le nombre des inscrits et une fonctionnalité qui permet de participer 
+####('../view/Blog:details-challenges.png')
+
+
+•	Chefs 
+Une page qui contient la liste des chefs qui ont des rôles des admins et partage des recettes dans le site avec une fonctionnalité qui permet de suivre votre chef préféré 
+####('../view/Blog:chefs.png')
+
+
+Contact et fac ?
+-	Page de contact 
+Cette page permet d’envoyer un message sous forme de formulaire de contact 
+####('../view/contact.png')
+
+
+Profil ?
+####('../view/profil.png')
+
+
+
+Les fonctionnalités :
+-	La recette du mois 
+-	La barre de recherche 
+-	Les catégories présentatives 
+-	Recette aléatoire 
+-	Evaluation de la recette 
+-	Ajout d’une recette aux favoris 
+-	Ajout d’un commentaire a une recette 
+-	Chat entre tous les membre de blog 
+-	Evaluation d’un article 
+-	Ajout un article aux favoris 
+-	Ajout un commentaire aux articles
+-	Des événements crier en collaboration avec des atelier 
+-	Des challenges 
+-	Suivre des chefs 
+-	Consulter les profile des chefs 
+-	Passer en mode sombre 
+
+
+
+
+
+Projet annuel 1ij
+Fait entre 16 mai 2024 et 24 juilet 2024
